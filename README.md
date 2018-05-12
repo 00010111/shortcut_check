@@ -8,16 +8,16 @@ Inspired by https://www.us-cert.gov/ncas/alerts/TA18-074A and the usage of remot
 
 
 Options:
--p (-path) # to specify a path 
--f (-file) # for a specific .lnk file
--v (-verbose) y # if you want to see all found IconLocations
-EXPERIMENTAL feature!!!! -r (-registry) y  #specify -r y to check registry if remote IconLocation is allowed or not. EXPERIMENTAL feature!!!!
+* -p (-path) # to specify a path 
+* -f (-file) # for a specific .lnk file
+* -v (-verbose) y # if you want to see all found IconLocations
+* EXPERIMENTAL feature!!!! -r (-registry) y  #specify -r y to check registry if remote IconLocation is allowed or not. EXPERIMENTAL feature!!!!
 
 usage examples:
-.\shortcut_check.ps1 -p C:\ -r y -v y
-.\shortcut_check.ps1 -p C:\
-.\shortcut_check.ps1 -f C:\Users\exampleUser\Desktop\test_links\TEST.lnk -v y -r y
-.\shortcut_check.ps1 -f C:\Users\exampleUser\Desktop\test_links\TEST.lnk
+* .\shortcut_check.ps1 -p C:\ -r y -v y
+* .\shortcut_check.ps1 -p C:\
+* .\shortcut_check.ps1 -f C:\Users\exampleUser\Desktop\test_links\TEST.lnk -v y -r y
+* .\shortcut_check.ps1 -f C:\Users\exampleUser\Desktop\test_links\TEST.lnk
 
 ## further work
 If you are aware of ways to set a remote IconLocation within a shortcut file that are not find by the script and cause an SMB request please contact me on twitter.
