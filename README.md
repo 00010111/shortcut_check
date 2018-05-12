@@ -18,3 +18,7 @@ usage examples:
 .\shortcut_check.ps1 -p C:\
 .\shortcut_check.ps1 -f C:\Users\exampleUser\Desktop\test_links\TEST.lnk -v y -r y
 .\shortcut_check.ps1 -f C:\Users\exampleUser\Desktop\test_links\TEST.lnk
+
+## further work
+If you are aware of ways to set a remote IconLocation within a shortcut file that are not find by the script and cause an SMB request please contact me on twitter.
+If you know more about how to disable remote IconLocations for the different Windows version please contact me on twitter.
